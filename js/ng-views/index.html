@@ -1,0 +1,10 @@
+<h2>Index</h2>
+
+<h2>All Entries</h2>
+
+<div data-ng-repeat="entry in vm.entries">
+  <p>
+    <a data-ui-sref="entryShow({id: entry.id})">{{entry.title}}</a>
+
+  </p>
+</div>
